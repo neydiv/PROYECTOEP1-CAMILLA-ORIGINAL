@@ -11,7 +11,7 @@ struct MetododepagoView: View {
     var body: some View {
         ZStack {
             // Fondo de la pantalla
-            Image("paste2")
+            Image("paste3")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .opacity(0.2) // Un poco de opacidad para no sobrecargar el fondo visualmente

@@ -4,7 +4,7 @@ struct CalificanosView: View {
     @State private var rating: Double = 0 // Valor de la calificación
     @State private var comment: String = "" // Comentario del usuario
     @State private var email: String = "" // Correo del usuario
-    @State private var userComments: [String] = ["¡Excelente aplicación!", "Podría mejorar en algunos aspectos.", "Me encantó, muy útil."] // Comentarios de usuarios
+    
     
     var body: some View {
         ZStack {
@@ -58,18 +58,7 @@ struct CalificanosView: View {
                 
                 Spacer(minLength: 30) // Espaciado entre el botón y la lista de comentarios
                 
-                // Sección para mostrar los comentarios de otros usuarios
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 15) {
-                        ForEach(userComments, id: \.self) { comment in
-                            Text(comment)
-                                .padding()
-                                .background(Color(.systemGray5))
-                                .cornerRadius(8)
-                                .padding([.leading, .trailing], 20)
-                        }
-                    }
-                }
+                
                 .frame(maxHeight: 200) // Limitar el tamaño de la lista de comentarios
                 .padding(.bottom, 20) // Espacio para los comentarios de usuarios
             }
@@ -78,11 +67,7 @@ struct CalificanosView: View {
     
     // Función para manejar el envío de la calificación
     func enviarCalificacion() {
-        if !comment.isEmpty && !email.isEmpty {
-            userComments.append("\(comment) - \(email)") // Añadir el comentario del usuario a la lista junto con el correo
-            comment = "" // Limpiar el campo de comentarios
-            email = "" // Limpiar el campo de correo
-        }
+        
         print("Calificación enviada: \(rating)")
         print("Comentario enviado: \(comment)")
         print("Correo enviado: \(email)")

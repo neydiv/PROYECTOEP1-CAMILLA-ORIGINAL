@@ -65,19 +65,15 @@ struct PerfilView: View {
                     // AÑADIMOS LA LISTA
                     List {
             
-                        NavigationLink(destination: MetododepagoView ()) {
-                            Text("Perfil")
-                        }
+                        
                         NavigationLink(destination: CalificanosView ()) {
                             Text("Configuracion de privacidad")
                         }
                         NavigationLink(destination: CalificanosView ()) {
                             Text("Telefono")
                         }
-                        NavigationLink(destination: CalificanosView ()) {
-                            Text("Visualización")
-                        }
-                        NavigationLink(destination: CalificanosView ()) {
+                        
+                        NavigationLink(destination: MetododepagoView()) {
                             Text("Metodo de pago")
                         }
                         NavigationLink(destination: CalificanosView ()) {

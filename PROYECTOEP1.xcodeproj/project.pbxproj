@@ -17,19 +17,20 @@
 		FB3486B92CA1B06C00A26163 /* MensajeriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486B82CA1B06C00A26163 /* MensajeriaView.swift */; };
 		FB3486BB2CA1B07200A26163 /* NavegacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486BA2CA1B07200A26163 /* NavegacionView.swift */; };
 		FB3486BD2CA1B07800A26163 /* OfertasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486BC2CA1B07800A26163 /* OfertasView.swift */; };
-		FB3486C12CA1B08700A26163 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C02CA1B08700A26163 /* PerfilView.swift */; };
-		FB3486C32CA1B09100A26163 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C22CA1B09100A26163 /* PrincipalView.swift */; };
-		FB3486C52CA1B09700A26163 /* RegalosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C42CA1B09700A26163 /* RegalosView.swift */; };
 		FB3486C72CA1B09C00A26163 /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C62CA1B09C00A26163 /* RegistroView.swift */; };
-		FB3486C92CA1B0A000A26163 /* UbicacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C82CA1B0A000A26163 /* UbicacionView.swift */; };
 		FB3486CC2CA1BDDE00A26163 /* SaladoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486CB2CA1BDDE00A26163 /* SaladoView.swift */; };
 		FB3486CE2CA1BE0500A26163 /* RecomendadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486CD2CA1BE0500A26163 /* RecomendadoView.swift */; };
 		FB3486D02CA1BE2000A26163 /* DulceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486CF2CA1BE2000A26163 /* DulceView.swift */; };
 		FB3486D22CA1BF8200A26163 /* HistorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D12CA1BF8200A26163 /* HistorialView.swift */; };
 		FB3486D42CA1BF9F00A26163 /* CuponesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D32CA1BF9F00A26163 /* CuponesView.swift */; };
-		FB3486D62CA1BFB800A26163 /* MetododepagoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D52CA1BFB800A26163 /* MetododepagoView.swift */; };
-		FB3486D82CA1BFD200A26163 /* CalificanosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D72CA1BFD200A26163 /* CalificanosView.swift */; };
 		FBC0862A2CC2C39600E759CC /* PedidoSelecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC086292CC2C39600E759CC /* PedidoSelecView.swift */; };
+		FBC0862E2CC2CBA600E759CC /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0862D2CC2CBA600E759CC /* PrincipalView.swift */; };
+		FBC086302CC2CBE100E759CC /* kekes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FBC0862F2CC2CBE100E759CC /* kekes.mp4 */; };
+		FBC086322CC2CC0100E759CC /* UbicacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC086312CC2CC0100E759CC /* UbicacionView.swift */; };
+		FBC086342CC2CCC900E759CC /* CalificanosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC086332CC2CCC900E759CC /* CalificanosView.swift */; };
+		FBC086362CC2CD8800E759CC /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC086352CC2CD8800E759CC /* PerfilView.swift */; };
+		FBC0863A2CC2D14E00E759CC /* RegalosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC086392CC2D14E00E759CC /* RegalosView.swift */; };
+		FBC0863C2CC2D68500E759CC /* MetododepagoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0863B2CC2D68500E759CC /* MetododepagoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,19 +46,20 @@
 		FB3486B82CA1B06C00A26163 /* MensajeriaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MensajeriaView.swift; sourceTree = "<group>"; };
 		FB3486BA2CA1B07200A26163 /* NavegacionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavegacionView.swift; sourceTree = "<group>"; };
 		FB3486BC2CA1B07800A26163 /* OfertasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfertasView.swift; sourceTree = "<group>"; };
-		FB3486C02CA1B08700A26163 /* PerfilView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
-		FB3486C22CA1B09100A26163 /* PrincipalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
-		FB3486C42CA1B09700A26163 /* RegalosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegalosView.swift; sourceTree = "<group>"; };
 		FB3486C62CA1B09C00A26163 /* RegistroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
-		FB3486C82CA1B0A000A26163 /* UbicacionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UbicacionView.swift; sourceTree = "<group>"; };
 		FB3486CB2CA1BDDE00A26163 /* SaladoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladoView.swift; sourceTree = "<group>"; };
 		FB3486CD2CA1BE0500A26163 /* RecomendadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendadoView.swift; sourceTree = "<group>"; };
 		FB3486CF2CA1BE2000A26163 /* DulceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DulceView.swift; sourceTree = "<group>"; };
 		FB3486D12CA1BF8200A26163 /* HistorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialView.swift; sourceTree = "<group>"; };
 		FB3486D32CA1BF9F00A26163 /* CuponesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponesView.swift; sourceTree = "<group>"; };
-		FB3486D52CA1BFB800A26163 /* MetododepagoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetododepagoView.swift; sourceTree = "<group>"; };
-		FB3486D72CA1BFD200A26163 /* CalificanosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificanosView.swift; sourceTree = "<group>"; };
 		FBC086292CC2C39600E759CC /* PedidoSelecView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PedidoSelecView.swift; path = ../../../PedidoSelecView.swift; sourceTree = "<group>"; };
+		FBC0862D2CC2CBA600E759CC /* PrincipalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		FBC0862F2CC2CBE100E759CC /* kekes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kekes.mp4; sourceTree = "<group>"; };
+		FBC086312CC2CC0100E759CC /* UbicacionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UbicacionView.swift; sourceTree = "<group>"; };
+		FBC086332CC2CCC900E759CC /* CalificanosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalificanosView.swift; sourceTree = "<group>"; };
+		FBC086352CC2CD8800E759CC /* PerfilView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		FBC086392CC2D14E00E759CC /* RegalosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegalosView.swift; sourceTree = "<group>"; };
+		FBC0863B2CC2D68500E759CC /* MetododepagoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetododepagoView.swift; path = ../../../MetododepagoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,24 +96,25 @@
 				FB3486B62CA1B06400A26163 /* LoginView.swift */,
 				FB3486C62CA1B09C00A26163 /* RegistroView.swift */,
 				FB3486BA2CA1B07200A26163 /* NavegacionView.swift */,
-				FB3486C22CA1B09100A26163 /* PrincipalView.swift */,
 				FB3486CF2CA1BE2000A26163 /* DulceView.swift */,
 				FB3486CD2CA1BE0500A26163 /* RecomendadoView.swift */,
 				FB3486CB2CA1BDDE00A26163 /* SaladoView.swift */,
+				FBC086392CC2D14E00E759CC /* RegalosView.swift */,
 				FB3486BC2CA1B07800A26163 /* OfertasView.swift */,
-				FB3486C42CA1B09700A26163 /* RegalosView.swift */,
 				FBC086292CC2C39600E759CC /* PedidoSelecView.swift */,
 				FB3486B82CA1B06C00A26163 /* MensajeriaView.swift */,
+				FBC0862D2CC2CBA600E759CC /* PrincipalView.swift */,
+				FBC086352CC2CD8800E759CC /* PerfilView.swift */,
+				FBC086312CC2CC0100E759CC /* UbicacionView.swift */,
 				FB3486B42CA1B05F00A26163 /* InformacionView.swift */,
-				FB3486C02CA1B08700A26163 /* PerfilView.swift */,
-				FB3486D72CA1BFD200A26163 /* CalificanosView.swift */,
-				FB3486D52CA1BFB800A26163 /* MetododepagoView.swift */,
+				FBC0863B2CC2D68500E759CC /* MetododepagoView.swift */,
 				FB3486D32CA1BF9F00A26163 /* CuponesView.swift */,
+				FBC086332CC2CCC900E759CC /* CalificanosView.swift */,
 				FB3486D12CA1BF8200A26163 /* HistorialView.swift */,
-				FB3486C82CA1B0A000A26163 /* UbicacionView.swift */,
 				FB3486B02CA1B03200A26163 /* AjustesView.swift */,
 				FB3486B22CA1B04500A26163 /* FavoritosView.swift */,
 				FB3486A82CA1AFFF00A26163 /* Preview Assets.xcassets */,
+				FBC0862F2CC2CBE100E759CC /* kekes.mp4 */,
 				FB3486A42CA1AFFF00A26163 /* Assets.xcassets */,
 				FB3486A62CA1AFFF00A26163 /* PROYECTOEP1.entitlements */,
 				FB3486A72CA1AFFF00A26163 /* Preview Content */,
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3486A92CA1AFFF00A26163 /* Preview Assets.xcassets in Resources */,
+				FBC086302CC2CBE100E759CC /* kekes.mp4 in Resources */,
 				FB3486A52CA1AFFF00A26163 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,25 +201,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3486D22CA1BF8200A26163 /* HistorialView.swift in Sources */,
-				FB3486C92CA1B0A000A26163 /* UbicacionView.swift in Sources */,
+				FBC086362CC2CD8800E759CC /* PerfilView.swift in Sources */,
 				FB3486B72CA1B06400A26163 /* LoginView.swift in Sources */,
 				FB3486D42CA1BF9F00A26163 /* CuponesView.swift in Sources */,
 				FB3486A12CA1AFFE00A26163 /* PROYECTOEP1App.swift in Sources */,
 				FB3486B52CA1B05F00A26163 /* InformacionView.swift in Sources */,
-				FB3486C12CA1B08700A26163 /* PerfilView.swift in Sources */,
 				FB3486B92CA1B06C00A26163 /* MensajeriaView.swift in Sources */,
-				FB3486C52CA1B09700A26163 /* RegalosView.swift in Sources */,
 				FB3486D02CA1BE2000A26163 /* DulceView.swift in Sources */,
 				FB3486BD2CA1B07800A26163 /* OfertasView.swift in Sources */,
-				FB3486C32CA1B09100A26163 /* PrincipalView.swift in Sources */,
-				FB3486D62CA1BFB800A26163 /* MetododepagoView.swift in Sources */,
-				FB3486D82CA1BFD200A26163 /* CalificanosView.swift in Sources */,
+				FBC0863C2CC2D68500E759CC /* MetododepagoView.swift in Sources */,
 				FBC0862A2CC2C39600E759CC /* PedidoSelecView.swift in Sources */,
 				FB3486C72CA1B09C00A26163 /* RegistroView.swift in Sources */,
+				FBC086342CC2CCC900E759CC /* CalificanosView.swift in Sources */,
+				FBC0863A2CC2D14E00E759CC /* RegalosView.swift in Sources */,
 				FB3486BB2CA1B07200A26163 /* NavegacionView.swift in Sources */,
 				FB3486CE2CA1BE0500A26163 /* RecomendadoView.swift in Sources */,
 				FB3486B32CA1B04500A26163 /* FavoritosView.swift in Sources */,
 				FB3486CC2CA1BDDE00A26163 /* SaladoView.swift in Sources */,
+				FBC086322CC2CC0100E759CC /* UbicacionView.swift in Sources */,
+				FBC0862E2CC2CBA600E759CC /* PrincipalView.swift in Sources */,
 				FB3486B12CA1B03200A26163 /* AjustesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

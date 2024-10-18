@@ -11,7 +11,7 @@ struct PrincipalView: View {
     var body: some View {
         NavigationView(){
             ZStack{
-                Image("paste3").resizable().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                Image("paste3").resizable().edgesIgnoringSafeArea(.all)
                 VStack{
                     Spacer().frame(height: 20)
                     ZStack {
@@ -21,7 +21,7 @@ struct PrincipalView: View {
                         .frame(width: 320, height: 200) // Tamaño del video
                         .cornerRadius(20) // Esquinas del video curvadas
                     }
-                    .padding(10)
+                    .padding(1)
 
                     //SALADO DULCE Y MÁS....
                     HStack(){
@@ -146,7 +146,7 @@ struct PrincipalView: View {
                         
                         }
                        
-                    } .padding(.top, 10)
+                    } .padding(.top, 1)
                     
                     Spacer()
                     
