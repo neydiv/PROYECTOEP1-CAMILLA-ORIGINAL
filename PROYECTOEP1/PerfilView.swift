@@ -52,38 +52,43 @@ struct PerfilView: View {
                         }
                         
                         
-                        NavigationLink(destination: AjustesView()){
-                            Image(systemName: "gearshape.fill")
+                        NavigationLink(destination: CalificanosView()){
+                            Image(systemName: "star.circle.fill")
                                 .padding()
                                 .background(.brown)
                                 .foregroundColor(.white)
                                 .cornerRadius(30)
                                 .font(.system(size: 35))
                         }
-                    } .frame(height: 70)
+                    } .frame(height: 50)
                     
                     // AÑADIMOS LA LISTA
                     List {
-                        HStack {
-                            NavigationLink(destination: HistorialView ()) {
-                                Text("Historial de compras")
-                            }
-                        }
-                        
-                        NavigationLink(destination: CuponesView ()) {
-                            Text("Cupones")
-                        }
-                        
+            
                         NavigationLink(destination: MetododepagoView ()) {
-                            Text("Metodo de Pago")
+                            Text("Perfil")
                         }
-                        
+                        NavigationLink(destination: CalificanosView ()) {
+                            Text("Configuracion de privacidad")
+                        }
+                        NavigationLink(destination: CalificanosView ()) {
+                            Text("Telefono")
+                        }
+                        NavigationLink(destination: CalificanosView ()) {
+                            Text("Visualización")
+                        }
+                        NavigationLink(destination: CalificanosView ()) {
+                            Text("Metodo de pago")
+                        }
                         NavigationLink(destination: CalificanosView ()) {
                             Text("Calificanos")
                         }
                     }
+                    
                     .scrollContentBackground(.hidden) //PARA QUE EL FONDO SEA TRANSPARENTE
                     .background(Color.clear) //
+                    
+                    Spacer(minLength: 20)
                     
                     Button(action: {
                                         //accion
