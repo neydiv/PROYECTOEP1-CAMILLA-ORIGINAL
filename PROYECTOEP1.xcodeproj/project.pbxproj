@@ -17,7 +17,6 @@
 		FB3486B92CA1B06C00A26163 /* MensajeriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486B82CA1B06C00A26163 /* MensajeriaView.swift */; };
 		FB3486BB2CA1B07200A26163 /* NavegacionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486BA2CA1B07200A26163 /* NavegacionView.swift */; };
 		FB3486BD2CA1B07800A26163 /* OfertasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486BC2CA1B07800A26163 /* OfertasView.swift */; };
-		FB3486BF2CA1B08200A26163 /* PedidoSelecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486BE2CA1B08200A26163 /* PedidoSelecView.swift */; };
 		FB3486C12CA1B08700A26163 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C02CA1B08700A26163 /* PerfilView.swift */; };
 		FB3486C32CA1B09100A26163 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C22CA1B09100A26163 /* PrincipalView.swift */; };
 		FB3486C52CA1B09700A26163 /* RegalosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486C42CA1B09700A26163 /* RegalosView.swift */; };
@@ -30,6 +29,7 @@
 		FB3486D42CA1BF9F00A26163 /* CuponesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D32CA1BF9F00A26163 /* CuponesView.swift */; };
 		FB3486D62CA1BFB800A26163 /* MetododepagoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D52CA1BFB800A26163 /* MetododepagoView.swift */; };
 		FB3486D82CA1BFD200A26163 /* CalificanosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3486D72CA1BFD200A26163 /* CalificanosView.swift */; };
+		FBC0862A2CC2C39600E759CC /* PedidoSelecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC086292CC2C39600E759CC /* PedidoSelecView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,6 @@
 		FB3486B82CA1B06C00A26163 /* MensajeriaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MensajeriaView.swift; sourceTree = "<group>"; };
 		FB3486BA2CA1B07200A26163 /* NavegacionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavegacionView.swift; sourceTree = "<group>"; };
 		FB3486BC2CA1B07800A26163 /* OfertasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfertasView.swift; sourceTree = "<group>"; };
-		FB3486BE2CA1B08200A26163 /* PedidoSelecView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedidoSelecView.swift; sourceTree = "<group>"; };
 		FB3486C02CA1B08700A26163 /* PerfilView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
 		FB3486C22CA1B09100A26163 /* PrincipalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
 		FB3486C42CA1B09700A26163 /* RegalosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegalosView.swift; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		FB3486D32CA1BF9F00A26163 /* CuponesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponesView.swift; sourceTree = "<group>"; };
 		FB3486D52CA1BFB800A26163 /* MetododepagoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetododepagoView.swift; sourceTree = "<group>"; };
 		FB3486D72CA1BFD200A26163 /* CalificanosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalificanosView.swift; sourceTree = "<group>"; };
+		FBC086292CC2C39600E759CC /* PedidoSelecView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PedidoSelecView.swift; path = ../../../PedidoSelecView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				FB3486CB2CA1BDDE00A26163 /* SaladoView.swift */,
 				FB3486BC2CA1B07800A26163 /* OfertasView.swift */,
 				FB3486C42CA1B09700A26163 /* RegalosView.swift */,
-				FB3486BE2CA1B08200A26163 /* PedidoSelecView.swift */,
+				FBC086292CC2C39600E759CC /* PedidoSelecView.swift */,
 				FB3486B82CA1B06C00A26163 /* MensajeriaView.swift */,
 				FB3486B42CA1B05F00A26163 /* InformacionView.swift */,
 				FB3486C02CA1B08700A26163 /* PerfilView.swift */,
@@ -210,8 +210,8 @@
 				FB3486C32CA1B09100A26163 /* PrincipalView.swift in Sources */,
 				FB3486D62CA1BFB800A26163 /* MetododepagoView.swift in Sources */,
 				FB3486D82CA1BFD200A26163 /* CalificanosView.swift in Sources */,
+				FBC0862A2CC2C39600E759CC /* PedidoSelecView.swift in Sources */,
 				FB3486C72CA1B09C00A26163 /* RegistroView.swift in Sources */,
-				FB3486BF2CA1B08200A26163 /* PedidoSelecView.swift in Sources */,
 				FB3486BB2CA1B07200A26163 /* NavegacionView.swift in Sources */,
 				FB3486CE2CA1BE0500A26163 /* RecomendadoView.swift in Sources */,
 				FB3486B32CA1B04500A26163 /* FavoritosView.swift in Sources */,
